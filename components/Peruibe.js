@@ -1,20 +1,13 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 
-export default function HomeScreen({navigation}) {
+export default function Peruibe({navigation}) {
  return (
     <View style={styles.bloco}>
-        <Text>Hello Warudo</Text>
+        <Text>Peruibe</Text>
 
-
-        <TouchableOpacity 
-            onPress={()=>navigation.navigate("SaoPaulo")}
-        >
-            <Text>
-                São Paulo
-            </Text>
-        </TouchableOpacity>
     </View>
+
   );
 }
 
